@@ -6,6 +6,6 @@ def hanoi(n, source, target, auxiliary):
     print(f"Перемістити диск з {source} на {target}: {n}")
     hanoi(n - 1, auxiliary, target, source)
 
-# Виклик функції для 3 дисків
+# Виклик функції для 4 дисків
 n = 4
 hanoi(n, 'A', 'C', 'B')
